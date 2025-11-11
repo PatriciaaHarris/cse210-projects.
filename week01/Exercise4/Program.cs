@@ -10,7 +10,7 @@ class Program
     {
         Console.WriteLine("Hello World! This is the Exercise4 Project.");
         Console.WriteLine("Enter a list of numbers,type 0 when finished");
-        int number= Console.ReadLine()
+        int number = Console.ReadLine()
         
         While (number != 0)
         Console.Write("Enter number :")

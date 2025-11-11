@@ -6,7 +6,7 @@ class Program
     {
         Console.WriteLine("Hello World! This is the Exercise2 Project.");
         Console.Write("From 1 to 100 ,what's your score?");
-        String score = Console.ReadLine()
+        String score = Console.ReadLine();
         int percent = int.Parse(score);
         
         if(percent < 60)
@@ -31,12 +31,12 @@ class Program
         }
     if (percent >= 70)
     {
-        Console.WriteLine("You are approved!")
+            Console.WriteLine("You are approved!");
 
     }
     else 
     {
-        Console.WriteLine("I sorry, you are disapproved")
+            Console.WriteLine("I sorry, you are disapproved");
     }
     }
 }
