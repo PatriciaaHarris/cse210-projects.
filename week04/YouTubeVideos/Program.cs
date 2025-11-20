@@ -7,7 +7,6 @@ namespace YouTubeVideos
     {
         static void Main(string[] args)
         {
-            // Crear videos
             Video video1 = new Video("Learning C#", "Patricia", 300);
             video1.AddComment(new Comment("Alice", "Great video!"));
             video1.AddComment(new Comment("Bob", "Thanks for the explanation."));
@@ -17,10 +16,8 @@ namespace YouTubeVideos
             video2.AddComment(new Comment("Dave", "Really clear explanation!"));
             video2.AddComment(new Comment("Eva", "I finally understood this topic."));
 
-            // Lista de videos
             List<Video> videos = new List<Video>() { video1, video2 };
 
-            // Mostrar información
             foreach (Video v in videos)
             {
                 Console.WriteLine($"Title: {v.Title}");
