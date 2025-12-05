@@ -2,9 +2,9 @@ using System;
 
 class Program
 {
-static void Main(string[] args)
-{
-GoalManager manager = new GoalManager();
-manager.Start();
-}
+    static void Main(string[] args)
+    {
+        GoalManager gm = new GoalManager();
+        gm.Start();
+    }
 }
